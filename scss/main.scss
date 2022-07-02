@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-img {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 25vh;
+
+
+
+}
+
+.container-img .box-img .figure {
+    width: 100%;
+    height: 100%;
+}
+
+.container-img .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.letra {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-style: normal;
+}
+
+.euro {
+    @extend .letra,
+
+
+
+
+}
+
+.botton {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    padding: .2rem;
+    margin: 1rem;
+    transform: skew(-10deg);
+    transition: .5s;
+}
+
+@mixin cuadro ($color) {
+    background-color: cadetblue;
+    color: $color;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cuadro1 {
+    @include cuadro (#a52a2a);
+}
+
+.cuadro2 {
+    @include cuadro (#000000)
+}
+
+.container-img .box-imm:nth-child(1) {
+    grid-column-start: span 2;
+}
+
+.container-img .box-imm:nth-child(2) {
+    grid-column-start: span 2;
+}
+
+.container-img .box-imm:nth-child(4) {
+    grid-row-start: span 2;
+}

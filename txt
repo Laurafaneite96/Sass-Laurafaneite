@@ -1,0 +1,42 @@
+Keywords y descripcion agregadas
+1.Keywords-index
+ bershka, bershka accesorios, bershka ropa
+
+  #Descripcion
+ BERSHKA COLECCION PRIMAVERA VERANO
+
+2.Keywords-Ropa
+camiseta, camiseta nirvana, vestido halter, satinado
+
+#Descripcion
+Camiseta sin mangas rib
+
+3.Keywords-Accesorios
+cartera flores, pañoleta, pañoleta print
+
+#Descripcion
+Pañoleta grande print
+
+4.Keywords-Zapatos
+sandalia, sandalia vinilo, sandalia plataforma
+
+#Descripcion
+Zapatillas plataforma blanca
+
+5.Keywords-Contacto
+bershka, bershka email, bershka newsletter
+
+#Descriocion
+No Olvides Dejar tu comentario
+
+-Agregue dos etiqueda strong en el HTML CONTACTO
+
+-Agregue Titulos cada pagina por ejemplo:
+En el HTML Ropa coloque Ropa|Berska
+
+-Meti todos mis html en una carpeta llamada pages.
+
+
+
+
+
