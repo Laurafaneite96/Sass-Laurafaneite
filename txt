@@ -35,6 +35,7 @@ No Olvides Dejar tu comentario
 En el HTML Ropa coloque Ropa|Berska
 
 -Meti todos mis html en una carpeta llamada pages.
+-
 
 
 
